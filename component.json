@@ -1,0 +1,19 @@
+{
+  "name": "carry",
+  "repo": "yields/carry",
+  "description": "Carry attrs, classes from one element to another.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "dependencies": {
+    "yields/merge-attrs": "*",
+    "component/classes": "*",
+    "yields/uniq": "*"
+  },
+  "development": {
+    "component/assert": "*",
+    "visionmedia/mocha": "*",
+    "visionmedia/mocha-matrix": "*"
+  }
+}
